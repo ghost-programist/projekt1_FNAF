@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;/*убрал этот автоматический отступ в 8px для блока*/
+    padding: 0;/*убрал этот автоматический отступ в 8px 8px для блока*/
+    text-align: center;/*один из элементов для выравнивания информации по центру*/
+    justify-content: center;/*один из элементов для выравнивания информации по центру*/
+    align-items: center;/*один из элементов для выравнивания информации по центру*/
+    background-image:url(images/FNAFfoto.jpg);/*фон страницы*/
+    background-size: cover;/*фон на весь экран*/
+}
+
+p {
+    font-family:sans-serif;/*шрифт текста для ВСЕХ p*/
+    font-size: 16px;/*размер текста для ВСЕХ p*/
+}
+h3 {
+    font-family:monospace;/*шрифт для h3*/
+    font-size: 20px;/*размер текста*/
+    color: brown;
+}
+h2 {
+    font-family:monospace;/*шрифт для h2*/
+    font-size: 25px;/*цвет фона*/
+}
+#link{/*ссылка в конце стрвницы*/
+    font-family:sans-serif;/*цвет фона*/
+    font-size: 16px;/*размер текста*/
+}
+
+ul {
+    color:rgb(38, 0, 255);/*цвет текста*/
+    font-size: 17px;/*размер текста*/
+}
+a {
+    text-decoration: none;
+    color:rgb(247, 247, 0)/*цвет текста*/
+    
+}
+.header {/*верхний блок страницы*/
+    
+    background: #333;/*цвет фона*/
+    padding-top: 30px;/*нутренний отступ сверху*/
+    min-height: 160px;/*минимальная высота блока*/
+    border-bottom: #0026e6 3px solid;/*добавляет нижнюю границу блока*/
+    display: flex;        /* включает режим flex, теперь элементы внутри идут в строку */
+    align-items: center;  /* выравнивает заголовок по вертикали относительно картинки */
+    gap: 15px;            /* расстояние между картинкой и заголовком */
+    width: 100%;
+    box-shadow: 0 0 100px rgba(0,0,0,0.5); /* чтобы отделялось от боков */
+    
+}
+
+h1 {
+    background-color: #333;/*цвет фона текста*/
+}
+
+.header img {/*фото верхнего блока страницы*/
+    display: block;       /* убирает лишние отступы у картинки */
+}
+.tack{/*кнопки*/
+    background-color: #333; /* Green */
+    border: none;/*убирает контуры*/
+    color: rgba(255, 0, 0, 0.788);/*цвет*/
+    padding: 15px 32px;/*отступы*/
+    text-align: center;/*выравнивает текст по центру*/
+    text-decoration: none;/*убирает подчёркивание*/
+    display: inline-block;
+    font-size: 16px;/*размер текста*/
+    right: 360px;
+}
+.PR{/*фотографии*/
+    width: 300px;
+    height: auto;
+}
+.SS {/*кнопки*/
+    background-color: #333;
+    color: rgb(204, 195, 195);
+}
+#container {/*центральный блок*/
+    
+    margin-top: 20%; /* отступ сверху */
+    max-width: 900px; /* ширина центрального блока */
+    margin: 0 auto;   /* выравнивание по центру */
+    background-color: #333; /* фон для текста, картинок и видео */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* чтобы отделялось от боков */
+    color: wheat;
+    border: #9b3713 3px solid;/*добавляет верхнюю границу блока*/
+    border-radius: 10px; /* скругленные углы */
+}
+.poc {/*заголовок*/
+    color: rgba(221, 212, 212, 0.788);
+}
+#hButton {
+    color: aliceblue;
+}
+#video {
+    border-radius: 10px; /* скругленные углы */
+    border-top-left-radius: 10px; /* скругленные углы */
+    border-top-right-radius: 10px; /* скругленные углы */
+}
+.h5 {
+    color: rgb(34, 230, 20);
+}
